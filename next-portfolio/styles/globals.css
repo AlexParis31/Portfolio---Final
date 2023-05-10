@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
+.custom-img {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/003/127/961/original/abstract-template-background-white-and-gray-squares-free-vector.jpg");
+}
+
