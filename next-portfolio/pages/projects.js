@@ -1,13 +1,17 @@
-import Image from 'next/image';
-import React, { useState } from 'react';
-import Hero from '../components/Hero'
+// import Image from 'next/image';
+// import React, { useState } from 'react';
+// import Hero from '../components/Hero';
+// import Projects from '../components/Projects'
 
-const projects = () => {
-    return (
-        <>
-            <Hero heading='My Projects' message='Submit the form below for more work and quotes.' />
-        </>
-    );
-};
+// const project = () => {
+//     return (
+//       <>
+      
+//         <Projects />
 
-export default projects;
+        
+//         </>
+//     );
+// };
+
+// export default project;

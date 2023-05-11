@@ -5,7 +5,7 @@ import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 const Navbar = () => {
 
     const [nav, setNav] = useState(false)
-    const [color, setColor] = useState('transperent')
+    const [color, setColor] = useState('transparent')
     const [textColor, setTextColor] = useState('white')
 
 
@@ -19,7 +19,7 @@ const Navbar = () => {
                 setColor('#ffffff')
                 setTextColor('#000000')
             } else {
-                setColor('transperent')
+                setColor('transparent')
                 setTextColor('#ffffff')
             }
         }
@@ -29,23 +29,19 @@ const Navbar = () => {
     return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
-            
-            <Link href='/'>
-                <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'>Capture</h1>
-            </Link>
 
             <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
-                <li className='p-4'>
+                <li className='p-4 text-xl'>
                     <Link href='/'>Home</Link>
                 </li>
-                <li className='p-4'>
-                    <Link href='/about'>About</Link>
+                <li className='p-4 text-xl'>
+                    <Link href='/#about'>About</Link>
                 </li>
-                <li className='p-4'>
-                    <Link href='/projects'>Projects</Link>
+                <li className='p-4 text-xl'>
+                    <Link href='/#projects'>Projects</Link>
                 </li>
-                <li className='p-4'>
-                    <Link href='/contact'>Contact Me</Link>
+                <li className='p-4 text-xl'>
+                    <Link href='/#contact'>Contact Me</Link>
                 </li>
             </ul>
         
@@ -70,20 +66,20 @@ const Navbar = () => {
                     <Link href='/'>Home</Link>
                 </li>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href='/about'>About</Link>
+                    <Link href='/#about'>About</Link>
                 </li>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href='/projects'>Projects</Link>
+                    <Link href='/#projects'>Projects</Link>
                 </li>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href='/contact'>Contact Me</Link>
+                    <Link href='/#contact'>Contact Me</Link>
                 </li>
             </ul>
 
         </div>
-        <div>
+        {/* <div>
             <AiOutlineMenu size={20}/>
-        </div>
+        </div> */}
         </div>
     </div>
     )

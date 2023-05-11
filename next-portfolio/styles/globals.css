@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -8,6 +10,9 @@ html {
 }
 
 .custom-img {
-  background-image: url("https://static.vecteezy.com/system/resources/previews/003/127/961/original/abstract-template-background-white-and-gray-squares-free-vector.jpg");
+  background-image: url("https://flexi.ink/images/real-estate/BG1.png");
 }
 
+/* body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/003/127/961/original/abstract-template-background-white-and-gray-squares-free-vector.jpg");
+} */

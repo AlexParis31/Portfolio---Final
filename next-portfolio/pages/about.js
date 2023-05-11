@@ -1,17 +1,17 @@
-import Image from 'next/image';
-import React, { useState } from 'react';
-import Hero from '../components/Hero';
-import Aboutt from '../components/About'
+// import Image from 'next/image';
+// import React, { useState } from 'react';
+// import Hero from '../components/Hero';
+// import Aboutt from '../components/About'
 
-const about = () => {
-    return (
-      <>
+// const about = () => {
+//     return (
+//       <>
       
-        <Aboutt />
+//         <Aboutt />
 
         
-        </>
-    );
-};
+//         </>
+//     );
+// };
 
-export default about;
+// export default about;
