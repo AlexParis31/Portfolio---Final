@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import tvshowImg from '../public/assets/projects/Screenshot 2023-05-10 at 1.44.56 PM.png';
+import carImg from '../public/assets/projects/Screenshot 2023-05-11 at 5.38.16 PM.png';
+import transImg from '../public/assets/projects/Screenshot 2023-05-12 at 11.09.53 AM.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -11,32 +13,26 @@ const Projects = () => {
 
                 <div className='grid md:grid-cols-2 gap-8 mt-10'>
                     <ProjectItem
-                    title='Property Finder'
+                    title='Tv Shows App'
                     backgroundImg={tvshowImg}
                     projectUrl='/property'
                     tech='React JS'
                     />
                     <ProjectItem
-                    title='Crypto App'
-                    backgroundImg={tvshowImg}
+                    title='Cars Catalogue'
+                    backgroundImg={carImg}
                     projectUrl='/crypto'
                     tech='React JS'
         
                     />
                     <ProjectItem
-                    title='Netflix App'
-                    backgroundImg={tvshowImg}
+                    title='Personal Budgetting'
+                    backgroundImg={transImg}
                     projectUrl='/netflix'
                     tech='React JS'
         
                     />
-                    <ProjectItem
-                    title='Twitch UI'
-                    backgroundImg={tvshowImg}
-                    projectUrl='/twitch'
-                    tech='Next JS'
-        
-                    />
+                   
 
                 </div>
             </div>
