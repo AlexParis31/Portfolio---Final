@@ -38,6 +38,9 @@ const Navbar = () => {
                     <Link href='/#about'>About</Link>
                 </li>
                 <li className='p-4 text-xl'>
+                    <Link href='/#skills'>Skills</Link>
+                </li>
+                <li className='p-4 text-xl'>
                     <Link href='/#projects'>Projects</Link>
                 </li>
                 <li className='p-4 text-xl'>

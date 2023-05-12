@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 
 import Hero from '../components/Hero.js'
 import About  from '../components/About.js'
+import Skills from '../components/Skills.js'
 import Projects from '../components/Projects.js'
 import Contact from '../components/Contact.js'
 import Main from '../components/Main.js'
@@ -29,6 +30,7 @@ export default function Home() {
       {/* <Main/> */}
 
       <About/>
+      <Skills/>
       <Projects/>
       <Contact/>
       
