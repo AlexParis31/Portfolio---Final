@@ -11,6 +11,8 @@ module.exports = {
         Montserrat: ["Montserrat", ...defaultTheme.fontFamily.sans],
         Montez: ["Montez", ...defaultTheme.fontFamily.sans],
         SpaceMono: ["Space Mono", ...defaultTheme.fontFamily.sans],
+        LilitaOne: ['Lilita One', ...defaultTheme.fontFamily.sans],
+        Montaga: ['Montaga', ...defaultTheme.fontFamily.sans],
       }
     },
   },

@@ -20,8 +20,8 @@ const Skills = () => {
     <div id='skills' className='w-full lg:h-screen p-2 bg-[#ffffff] '>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full lg:mt-[-5rem]'>
       {/* <p className='text-xl tracking-widest uppercase text-[#5651e5]'> */}
-        <p className='text-5xl text-center tracking-wide uppercase text-[#5651e5] lg:mt-10rem mt-5 mb-20'>
-          My Skills
+        <p className='font-heading text-center text-5xl xs:text-6xl font-bold text-gray-900 mt-5 mb-20'>
+          MY SKILLS
         </p>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8 '>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
