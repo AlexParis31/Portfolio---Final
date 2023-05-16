@@ -28,22 +28,22 @@ const Navbar = () => {
 
     return (
     <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
-        <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
+        <div className='max-w-[1240px] m-auto flex justify-around items-center p-4 text-white'>
 
             <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
-                <li className='p-4 text-xl'>
+                <li className='p-4 text-2xl'>
                     <Link href='/'>Home</Link>
                 </li>
-                <li className='p-4 text-xl'>
+                <li className='p-4 text-2xl'>
                     <Link href='/#about'>About</Link>
                 </li>
-                <li className='p-4 text-xl'>
+                <li className='p-4 text-2xl'>
                     <Link href='/#skills'>Skills</Link>
                 </li>
-                <li className='p-4 text-xl'>
+                <li className='p-4 text-2xl'>
                     <Link href='/#projects'>Projects</Link>
                 </li>
-                <li className='p-4 text-xl'>
+                <li className='p-4 text-2xl'>
                     <Link href='/#contact'>Contact Me</Link>
                 </li>
             </ul>

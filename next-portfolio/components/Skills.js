@@ -17,13 +17,13 @@ import Github from '../public/assets/skills/Github.png';
 const Skills = () => {
 
   return (
-    <div id='skills' className='w-full lg:h-screen p-2'>
-      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
+    <div id='skills' className='w-full lg:h-screen p-2 bg-[#ffffff] '>
+      <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full lg:mt-[-5rem]'>
       {/* <p className='text-xl tracking-widest uppercase text-[#5651e5]'> */}
-        <p className='text-5xl text-center tracking-wide uppercase text-[#5651e5] mt-20 mb-20'>
+        <p className='text-5xl text-center tracking-wide uppercase text-[#5651e5] lg:mt-10rem mt-5 mb-20'>
           My Skills
         </p>
-        <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
+        <div className='grid grid-cols-2 lg:grid-cols-4 gap-8 '>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
@@ -106,9 +106,11 @@ const Skills = () => {
           </div>
         </div>
         <div>
-        <p class="text-lg text-gray-500 font-semibold mt-5 mb-20"> You can find more of my coding skills on my resume at the following link: </p>
-        <button href="https://docs.google.com/document/d/1U3n4RzfGv_trqsryxOv0YCBIn4yWzHqepFt7sPb8aXs/edit"className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+        <p class="text-lg text-gray-500 font-semibold mt-10 mb-10"> You can find more of my coding skills on my resume at the following link: </p>
+        <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-4 rounded'>
+        <a href="https://docs.google.com/document/d/1U3n4RzfGv_trqsryxOv0YCBIn4yWzHqepFt7sPb8aXs/edit" target="_blank"> 
             Alex's Resume
+            </a>
         </button>
         </div>
       </div>

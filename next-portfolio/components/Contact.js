@@ -4,10 +4,10 @@ import Hero from '../components/Hero'
 
 const contact = () => {
     return (
-        <section id="contact" class="relative py-20 md:py-32 overflow-hidden">
+        <section id="contact" class="relative py-20 md:py-32 overflow-hidden bg-[#ffffff]">
             <div class="relative container px-4 mx-auto">
                 <div class="max-w-2xl mx-auto mb-18 text-center">
-                <h1 class="font-heading text-5xl xs:text-6xl font-bold text-gray-900 mb-4">
+                <h1 class="font-heading text-5xl xs:text-6xl font-bold text-gray-900 ">
                     <span>Contact Me</span>
                 </h1>
                 <p class="text-lg text-gray-500 font-semibold mt-5 mb-20"> Please don't hesitate to reach out through any of the contacts listed below. I'm more than happy to answer your questions, and discuss any potential opportunities. </p>

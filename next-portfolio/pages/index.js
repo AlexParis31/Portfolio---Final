@@ -26,6 +26,8 @@ export default function Home() {
         
       </Head>
 
+      <div className='divide-y-8'>
+
       <Hero heading="Alex Parisi" message='Software Engineer'/>
       {/* <Main/> */}
 
@@ -33,7 +35,7 @@ export default function Home() {
       <Skills/>
       <Projects/>
       <Contact/>
-      
+      </div>
      
       
         
