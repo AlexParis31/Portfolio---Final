@@ -4,7 +4,9 @@ import Hero from '../components/Hero'
 
 const contact = () => {
     return (
-        <section id="contact" class="relative py-20 md:py-32 overflow-hidden bg-[#ffffff]">
+        <>
+        <div id='projects' className='mb-20'></div>
+        <section id="contact" class="relative py-20 md:py-32 overflow-hiddenbg-center bg-cover customThree-img mb-20 ">
             <div class="relative container px-4 mx-auto">
                 <div class="max-w-2xl mx-auto mb-18 text-center">
                 <h1 class="font-heading text-5xl xs:text-6xl font-bold text-gray-900 ">
@@ -58,6 +60,7 @@ const contact = () => {
                 </div>
             </div>
             </section>
+            </>
     );
 };
 

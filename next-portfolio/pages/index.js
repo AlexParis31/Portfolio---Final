@@ -26,7 +26,7 @@ export default function Home() {
         
       </Head>
 
-      <div className='divide-y-8 scroll-smooth'>
+      <div >
 
       <Hero heading="Alex Parisi" message='Software Engineer'/>
       {/* <Main/> */}

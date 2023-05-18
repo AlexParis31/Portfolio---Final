@@ -4,9 +4,9 @@ import React, { useState } from 'react';
 const Aboutt = () => {
     return (
     <div id="about"> 
-        <div className='p-5 text-white z-[2] bg-[#ffffff] '>
+        <div className='p-5 text-white z-[2] bg-center bg-cover customThree-img '>
             <div class="py-16  ">  
-                <div class="container bg-cover bg-center customTwo-img p-5 mx-auto my-16 px-6 text-gray-600 md:px-12 xl:px-6 ">
+                <div class="container bg-cover bg-center customTwo-img p-5 mx-auto mt-8 px-6 text-gray-600 md:px-12 xl:px-6 ">
                 <h2 class="font-Montserrat text-center text-7xl xs:text-6xl text-black mt-20 mb-5" >Hello! I'm Alex, </h2>
                 <h2 className='text-4xl text-center font-Montaga tracking-wide text-black mb-10 '>A passionate and versatile software engineer.</h2>
                     <div class="space-y-6 md:space-y-0 md:flex justify-center md:gap-6 lg:items-center lg:gap-12">

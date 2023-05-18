@@ -27,8 +27,8 @@ const Navbar = () => {
     }, [])
 
     return (
-    <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
-        <div className='max-w-[1240px] m-auto flex justify-around items-center p-4 text-white'>
+    <div style={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-20 ease-in duration-300'>
+        <div className='max-w-[1240px] m-auto flex justify-left sm:justify-center items-center p-4 text-white'>
 
             <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
                 <li className='p-4 text-2xl'>
@@ -70,6 +70,9 @@ const Navbar = () => {
                 </li>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                     <Link href='/#about'>About</Link>
+                </li>
+                <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                    <Link href='/#skills'>Skills</Link>
                 </li>
                 <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                     <Link href='/#projects'>Projects</Link>
