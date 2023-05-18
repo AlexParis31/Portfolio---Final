@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 
 html {
   scroll-behavior: smooth !important;
@@ -21,6 +20,3 @@ html {
   background-image: url("https://i.ibb.co/RBSjP5z/Screenshot-2023-05-16-at-2-26-22-PM.png");
 }
 
-/* body {
-  background-image: url("https://static.vecteezy.com/system/resources/previews/003/127/961/original/abstract-template-background-white-and-gray-squares-free-vector.jpg");
-} */
